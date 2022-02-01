@@ -49,9 +49,12 @@ div h2{
   padding: 10px;
 }
 
-
 p{
   margin-top: 10px;
+}
+
+p a{
+  color: antiquewhite;
 }
 
 /* Exta small device xs*/
