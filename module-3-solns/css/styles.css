@@ -37,6 +37,7 @@ button{
 div#main-content{
   color: azure;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 div h2{
@@ -63,5 +64,4 @@ p a{
     margin-left: 15px;
   }  
 }
-
 
