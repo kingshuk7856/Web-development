@@ -1,0 +1,64 @@
+body {
+  background-color:#00539CFF;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#EEA47FFF;
+  border-radius: 0;
+  border: 0;
+}
+
+h1#brand-name{
+  font-size: 3em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#00539CFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  background-color: azure;
+}
+
+.navbar-header a:hover{
+  text-decoration: none;
+}
+
+button{
+  height: 40px;
+}
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+  border: 1px solid #3F0C1F;
+}
+
+/* Main-content */
+div#main-content{
+  color: azure;
+  font-size: 16px;
+}
+
+div h2{
+  color: azure;
+}
+
+#main-content section{
+  margin-top: 25px;
+  background-color: rgb(75, 156, 226);
+  padding: 10px;
+}
+
+
+p{
+  margin-top: 10px;
+}
+
+/* Exta small device xs*/
+@media (max-width: 767px){
+  h1#brand-name{
+    margin-left: 15px;
+  }  
+}
+
+
